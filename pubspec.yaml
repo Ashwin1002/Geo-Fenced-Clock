@@ -1,0 +1,33 @@
+name: geo_fenced_clock
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  freezed_annotation: ^2.4.1
+  geolocator: ^13.0.1
+  intl: ^0.19.0
+  json_annotation: ^4.8.1
+  skeletonizer: ^1.4.2
+  stream_transform: ^2.1.0
+
+dev_dependencies:
+  build_runner: ^2.4.10
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.4.5
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
